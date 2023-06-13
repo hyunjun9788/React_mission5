@@ -1,4 +1,4 @@
-function SectionSkiils(){
+function SectionSkills(){
     return(
         <section className="skills">
 
@@ -6,4 +6,4 @@ function SectionSkiils(){
     )
 }
 
-export default SectionSkiils
+export default SectionSkills

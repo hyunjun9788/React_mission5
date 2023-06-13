@@ -4,7 +4,7 @@ import HeaderContent from "./components/Content/HeaderContent";
 
 import SectionAbout from "./components/Layout/SectionAbout";
 import AboutContent from "./components/Content/AboutContent";
-import SectionSkiils from "./components/Layout/SectionSkiils";
+import SectionSkills from "./components/Layout/SectionSkills";
 import SkillsContent from "./components/Content/SkillsContent";
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
                 <AboutContent/>
             </SectionAbout>
 
-            <SectionSkiils>
+            <SectionSkills>
                 <SkillsContent/>
-                </SectionSkiils>
+                </SectionSkills>
 
             <footer className="footer">
                 <p className="footer__text">&copy; 2023 My Website. All rights reserved.</p>

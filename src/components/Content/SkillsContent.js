@@ -11,4 +11,4 @@ function skillsContent(){
     )
 }
 
-export default skillsContent()
+export default skillsContent
