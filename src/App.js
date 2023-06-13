@@ -5,6 +5,7 @@ import HeaderContent from "./components/Content/HeaderContent";
 import SectionAbout from "./components/Layout/SectionAbout";
 import AboutContent from "./components/Content/AboutContent";
 import SectionSkiils from "./components/Layout/SectionSkiils";
+import SkillsContent from "./components/Content/SkillsContent";
 
 function App() {
     return (
@@ -18,12 +19,7 @@ function App() {
             </SectionAbout>
 
             <SectionSkiils>
-                <h2 className="skills__title">My Skills</h2>
-                <ul className="skills__list">
-                    <li className="skills__item">HTML</li>
-                    <li className="skills__item">CSS</li>
-                    <li className="skills__item">JavaScript</li>
-                </ul>
+                <SkillsContent/>
                 </SectionSkiils>
 
             <footer className="footer">
