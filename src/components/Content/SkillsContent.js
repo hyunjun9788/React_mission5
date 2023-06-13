@@ -12,3 +12,4 @@ function skillsContent(){
 }
 
 export default skillsContent
+

@@ -1,8 +1,9 @@
+import HeaderContent from "../Content/HeaderContent";
+
 function Header(){
     return (
         <header className="header">
-            <h1 className="header__title">Welcome to My Web Page!</h1>
-
+            <HeaderContent/>
         </header>
     )
 }
