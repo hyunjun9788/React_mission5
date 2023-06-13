@@ -1,17 +1,20 @@
 import './App.css';
 import Header from "./components/Layout/Header"
+import HeaderContent from "./components/Content/HeaderContent";
 
+import SectionAbout from "./components/Layout/SectionAbout";
+import AboutContent from "./components/Content/AboutContent";
 
 function App() {
     return (
         <div className="App">
-            <Header/>
+            <Header>
+                <HeaderContent/>
+            </Header>
 
-            <section className="about">
-                <h2 className="about__title">About Me</h2>
-                <p className="about__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor augue
-                    ac mauris commodo, vel dapibus lorem eleifend.</p>
-            </section>
+            <SectionAbout>
+                <AboutContent/>
+            </SectionAbout>
 
             <section className="skills">
                 <h2 className="skills__title">My Skills</h2>
